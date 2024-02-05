@@ -1,0 +1,128 @@
+body {
+  color: #581C0C;
+  background-color: #FFC288;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 16px
+}
+
+h1, h2 {
+color: rgb(202, 81, 22);
+font-family: 'Silkscreen', sans-serif
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.img-circle {
+  border-radius: 50%
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto
+}
+
+.card {
+  background-color: white;
+  margin: 25px auto;
+  box-shadow: rgba(202, 81, 22, 0.4) 0px 5px, rgba(202, 81, 22, 0.3) 0px 10px, rgba(202, 81, 22, 0.2) 0px 15px, rgba(202, 81, 22, 0.1) 0px 20px, rgba(202, 81, 22, 0.05) 0px 25px;
+  border-radius: 2px;
+  padding: 16px;
+  text-align: center;
+  animation: slideShadows 5s infinite;
+}
+
+
+#round_up_border{
+  border-radius: 700px 700px 5px 5px;
+}
+
+.btn-primary {
+  background:#CA5116;
+  text-decoration: none;
+  text-transform: uppercase;
+  color:white;
+  padding:8px 12px;
+  border-radius:2000px;
+  letter-spacing: 0.8px;
+  transition: 0.5s;
+  display: inline-block;
+}
+
+.btn-primary:hover {
+  background:#581C0C;
+}
+
+i {
+  font-size:32px;
+}
+
+.list-inline {
+  padding: 0px 16px;
+  list-style: none;
+}
+
+
+
+@media(max-width:540px) {
+  .container {
+    width: 300px;
+  }
+  body {
+    font-size: 9px;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+
+@keyframes slideShadows {
+  0% {
+    box-shadow: rgba(202, 81, 22, 0.4) 0px 5px,
+               rgba(202, 81, 22, 0.3) 0px 10px,
+                rgba(202, 81, 22, 0.2) 0px 15px,
+                 rgba(202, 81, 22, 0.1) 0px 20px,
+                 rgba(202, 81, 22, 0.05) 0px 25px;
+  }
+
+  20% {
+    box-shadow:rgba(202, 81, 22, 0.05) 0px 25px,
+     rgba(202, 81, 22, 0.4) 0px 5px,
+               rgba(202, 81, 22, 0.3) 0px 10px,
+                rgba(202, 81, 22, 0.2) 0px 15px,
+                 rgba(202, 81, 22, 0.1) 0px 20px
+
+  }
+
+  40% {
+    box-shadow:rgba(202, 81, 22, 0.1) 0px 20px,
+    rgba(202, 81, 22, 0.05) 0px 25px,
+     rgba(202, 81, 22, 0.4) 0px 5px,
+               rgba(202, 81, 22, 0.3) 0px 10px,
+                rgba(202, 81, 22, 0.2) 0px 15px
+
+  }
+
+  60% {
+    box-shadow:rgba(202, 81, 22, 0.2) 0px 15px,
+    rgba(202, 81, 22, 0.1) 0px 20px,
+    rgba(202, 81, 22, 0.05) 0px 25px,
+     rgba(202, 81, 22, 0.4) 0px 5px,
+               rgba(202, 81, 22, 0.3) 0px 10px
+
+  }
+
+  80% {
+    box-shadow:rgba(202, 81, 22, 0.3) 0px 10px,
+    rgba(202, 81, 22, 0.2) 0px 15px,
+    rgba(202, 81, 22, 0.1) 0px 20px,
+    rgba(202, 81, 22, 0.05) 0px 25px,
+     rgba(202, 81, 22, 0.4) 0px 5px
+
+  }
+
+}
